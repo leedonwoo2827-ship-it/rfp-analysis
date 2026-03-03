@@ -1,6 +1,6 @@
 ---
-name: rfp_analysis
-description: "발주처 RFP 문서(PDF)에서 작성 요소를 파악하고 요구사항을 추출하는 스킬. PDF 문서를 분석하여 목차, 제안서 구성 항목(Backbone), 평가 항목 등을 정밀 분석한다."
+name: rfp-analysis
+description: 발주처 RFP 문서(PDF)에서 작성 요소를 파악하고 요구사항을 추출하는 스킬. PDF 문서를 분석하여 목차, 제안서 구성 항목(Backbone), 평가 항목 등을 정밀 분석한다.
 ---
 
 # RFP 분석 스킬 (Skill 1)
