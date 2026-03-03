@@ -1,4 +1,4 @@
-# RFP Analyzer - AI 제안서 RFP 분석 스킬
+# RFP analysis - AI 제안서 RFP 분석 스킬
 
 발주처 RFP 문서(PDF)에서 제안서 구조를 자동으로 분석하고 요구사항을 추출하는 Claude Desktop 스킬입니다.
 
@@ -14,12 +14,12 @@
 
 1. 이 레포지토리를 클론하거나 ZIP으로 다운로드합니다:
    ```bash
-   git clone https://github.com/leedonwoo2827-ship-it/rfp-analyzer.git
+   git clone https://github.com/leedonwoo2827-ship-it/rfp-analysis.git
    ```
 
 2. Claude Desktop을 실행합니다.
 
-3. `rfp-analyzer` 폴더를 Claude Desktop 창에 드래그 앤 드롭합니다.
+3. `rfp-analysis` 폴더를 Claude Desktop 창에 드래그 앤 드롭합니다.
 
 4. 스킬이 자동으로 설치되며, Claude가 사용 가능하다고 알려줍니다.
 
@@ -29,12 +29,12 @@ Claude Desktop의 Skills 디렉토리에 직접 복사:
 
 **Windows:**
 ```bash
-xcopy /E /I rfp-analyzer "%APPDATA%\Claude\skills\rfp-analyzer"
+xcopy /E /I rfp-analysis "%APPDATA%\Claude\skills\rfp-analysis"
 ```
 
 **macOS/Linux:**
 ```bash
-cp -r rfp-analyzer ~/.config/Claude/skills/
+cp -r rfp-analysis ~/.config/Claude/skills/
 ```
 
 ## 사용 방법
@@ -65,7 +65,7 @@ Claude Desktop에서 자연스럽게 요청하세요:
 
 이 스킬은 다음 스킬들과 함께 사용하면 완전한 제안서 자동화가 가능합니다:
 
-1. **rfp-analyzer** (이 스킬) - RFP 분석 및 구조 추출
+1. **rfp-analysis** (이 스킬) - RFP 분석 및 구조 추출
 2. **company-data-manager** - 회사 자료 관리
 3. **proposal-writer** - 제안서 초안 작성
 4. **hwpx-writer** - HWPX 파일 생성
